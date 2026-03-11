@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+
+  --color-dark-bg: #0f172a;
+  --color-dark-card: #1e293b;
+  --color-dark-text: #e2e8f0;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 transition-colors duration-200;
+}
+
+body.dark {
+  @apply bg-dark-bg text-dark-text;
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg dark:bg-dark-card/80 dark:border-gray-700/50;
+}

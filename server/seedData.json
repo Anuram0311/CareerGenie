@@ -1,0 +1,139 @@
+[
+    {
+        "domain": "Engineering & Technology",
+        "branch": "Computer Science",
+        "title": "Software Engineer",
+        "description": "A software engineer applies mathematical analysis and the principles of computer science in order to design and develop computer software.",
+        "skills": [
+            "JavaScript",
+            "Python",
+            "React",
+            "Node.js",
+            "Problem Solving",
+            "System Design"
+        ],
+        "salaryRange": "$80,000 - $150,000+",
+        "educationPath": "Bachelor's degree in Computer Science or related field, or practical experience via bootcamps.",
+        "futureScope": "Extremely high demand as technology continues to integrate into every industry.",
+        "roadmap": [
+            "Learn basic programming (Python, JS)",
+            "Master Data Structures and Algorithms",
+            "Build personal projects and portfolio",
+            "Get an entry-level software developer row",
+            "Progress to Senior Engineer or Architect"
+        ],
+        "certifications": [
+            "AWS Certified Developer",
+            "Google Cloud Professional Developer"
+        ]
+    },
+    {
+        "domain": "Engineering & Technology",
+        "branch": "Data Science",
+        "title": "Data Scientist",
+        "description": "Data scientists utilize their analytical, statistical, and programming skills to collect, analyze, and interpret large data sets.",
+        "skills": [
+            "Python",
+            "R",
+            "Machine Learning",
+            "Statistics",
+            "SQL",
+            "Data Visualization"
+        ],
+        "salaryRange": "$90,000 - $160,000+",
+        "educationPath": "Master's or Ph.D. in Data Science, Statistics, Computer Science or related field.",
+        "futureScope": "Rapid growth expected with the rise of AI and big data analytics.",
+        "roadmap": [
+            "Learn Python and SQL",
+            "Study Statistics and Machine Learning",
+            "Work as a Data Analyst",
+            "Transition into a Data Scientist role",
+            "Advance to Lead Data Scientist"
+        ],
+        "certifications": [
+            "IBM Data Science Professional Certificate",
+            "Certified Analytics Professional (CAP)"
+        ]
+    },
+    {
+        "domain": "Healthcare & Medical",
+        "branch": "Medicine",
+        "title": "General Practitioner",
+        "description": "A medical doctor who treats acute and chronic illnesses and provides preventive care and health education to patients.",
+        "skills": [
+            "Empathy",
+            "Diagnosis",
+            "Patient Care",
+            "Communication",
+            "Medical Knowledge"
+        ],
+        "salaryRange": "$150,000 - $250,000+",
+        "educationPath": "Medical degree (M.D. or D.O.) followed by a residency program.",
+        "futureScope": "Steady and perennial high demand due to an aging population.",
+        "roadmap": [
+            "Complete pre-med undergraduate degree",
+            "Pass the MCAT and attend Medical School",
+            "Complete a Residency program",
+            "Obtain medical license",
+            "Start practice or specialize further"
+        ],
+        "certifications": [
+            "Board Certification in Family Medicine",
+            "Advanced Trauma Life Support (ATLS)"
+        ]
+    },
+    {
+        "domain": "Business & Management",
+        "branch": "Finance",
+        "title": "Financial Analyst",
+        "description": "Financial analysts guide businesses and individuals in making investment decisions by assessing the performance of stocks, bonds, and other types of investments.",
+        "skills": [
+            "Financial Modeling",
+            "Data Analysis",
+            "Excel",
+            "Accounting",
+            "Strategic Thinking"
+        ],
+        "salaryRange": "$60,000 - $110,000",
+        "educationPath": "Bachelor's degree in Finance, Accounting, Economics, or Business Administration.",
+        "futureScope": "Stable growth as companies constantly need financial guidance and optimization.",
+        "roadmap": [
+            "Earn a degree in Finance or Economics",
+            "Complete an internship in finance",
+            "Work as a Junior Financial Analyst",
+            "Earn CFA certification",
+            "Promote to Senior Financial Analyst or Portfolio Manager"
+        ],
+        "certifications": [
+            "Chartered Financial Analyst (CFA)",
+            "Financial Modeling & Valuation Analyst (FMVA)"
+        ]
+    },
+    {
+        "domain": "Design & Content",
+        "branch": "UX/UI Design",
+        "title": "UX Researcher",
+        "description": "UX Researchers systematically study target users to collect and analyze data that will help inform the product design process.",
+        "skills": [
+            "User Testing",
+            "Interviewing",
+            "Data Synthesis",
+            "Empathy",
+            "Prototyping"
+        ],
+        "salaryRange": "$75,000 - $130,000",
+        "educationPath": "Degree in HCI, Psychology, Design, or equivalent practical experience.",
+        "futureScope": "High demand as companies prioritize user-centric design in digital products.",
+        "roadmap": [
+            "Study Psychology or Human-Computer Interaction",
+            "Build a research portfolio with case studies",
+            "Work as a Junior UX Researcher",
+            "Lead research projects across teams",
+            "Become Head of User Research"
+        ],
+        "certifications": [
+            "Nielsen Norman Group UX Certification",
+            "Google UX Design Professional Certificate"
+        ]
+    }
+]
