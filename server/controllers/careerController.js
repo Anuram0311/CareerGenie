@@ -18,13 +18,16 @@ const getCareers = async (req, res) => {
             // and the query comes as 'mechanical-engineering', we must fetch branches to find the exact match
             const Branch = require('../models/Branch');
             const allBranches = await Branch.find({});
-            const matchedBranch = allBranches.find(b => slugify(b.name) === branch);
+            const matchedBranch = allBranches.find(
+                b => slugify(b.name) === slugify(branch) || b.name.toLowerCase() === branch.toLowerCase()
+            );
 
             if (matchedBranch) {
                 query.branch = matchedBranch.name;
             } else {
                 // simple fallback if branch model missing
-                query.branch = new RegExp('^' + branch.replace(/-/g, '.*') + '$', 'i');
+                const escaped = branch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                query.branch = new RegExp('^' + escaped + '$', 'i');
             }
         }
         if (q) {
@@ -62,8 +65,9 @@ const getDomains = async (req, res) => {
 const getBranchesByDomain = async (req, res) => {
     try {
         const decodedDomain = decodeURIComponent(req.params.domain);
+        const escapedDomain = decodedDomain.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         // Find branches matching the domain (case-insensitive)
-        const branches = await Branch.find({ domain: { $regex: new RegExp('^' + decodedDomain + '$', 'i') } });
+        const branches = await Branch.find({ domain: { $regex: new RegExp('^' + escapedDomain + '$', 'i') } });
         res.status(200).json(branches);
     } catch (error) {
         console.error(error);

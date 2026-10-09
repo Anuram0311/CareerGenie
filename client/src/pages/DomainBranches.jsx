@@ -5,9 +5,11 @@ import { ChevronLeft, ArrowRight, Library, Search } from 'lucide-react';
 
 const slugToDomain = {
     'engineering-and-technology': 'Engineering & Technology',
+    'technology': 'Engineering & Technology',
     'science': 'Science',
     'arts': 'Arts',
     'medical': 'Medical',
+    'healthcare': 'Medical',
     'commerce': 'Commerce',
     'law': 'Law'
 };
